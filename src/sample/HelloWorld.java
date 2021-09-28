@@ -9,7 +9,7 @@ public class HelloWorld {
 		
 //		take input from user
 		Scanner sc = new Scanner(System.in);
-		
+//		take first number from user
 		System.out.println("Enter First Number: ");
 		int num1 = sc.nextInt();
 		
@@ -28,9 +28,9 @@ public class HelloWorld {
 //	AccessModifier AccessSpecifire(optional) ReturnType MethodName
 	
 	public static int addition(int a, int b) {
-		int sum = a + b;
-//		System.out.println("The addition of two number is : " + sum);
-		return sum;
+		int add = a + b;
+//		System.out.println("The addition of two number is : " + add);
+		return add;
 		
 	}
 
